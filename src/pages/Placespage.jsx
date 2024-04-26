@@ -31,7 +31,7 @@ function Placespage() {
                     return <Link to={'/account/places/'+e._id} className=" cursor-pointer bg-gray-200 p-4 rounded-2xl flex gap-4" key={i}>
                         <div className='flex w-32 h-32 bg-gray-300 grow shrink-0 rounded-lg' >
                             {e.addedphotos?.length > 0 && (
-                                <img className='object-cover aspect-square rounded-lg' src={"http://localhost:3000/"+e?.addedphotos?.[0]} alt='' />
+                                <img className='object-cover aspect-square rounded-lg' src={"https://airbnb-w64o.onrender.com/"+e?.addedphotos?.[0]} alt='' />
                             )}
                         </div>
                         <div className='grow-0'>

@@ -21,7 +21,7 @@ console.log(places)
                 <Link to={'/place/'+place._id}>
                     <div className="bg-gray-500 mb-2  rounded-2xl flex">
             {place.addedphotos?.[0] &&
-            <img className="object-cover aspect-square rounded-2xl" src={"http://localhost:3000/" + place?.addedphotos?.[0]} />}
+            <img className="object-cover aspect-square rounded-2xl" src={"https://airbnb-w64o.onrender.com/" + place?.addedphotos?.[0]} />}
                     </div>
             
                     <h2 className='text-sm truncate '>{place.title}</h2>

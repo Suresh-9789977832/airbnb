@@ -49,20 +49,20 @@ function Placepage() {
               <div>
                   {
                       place.addedphotos?.[0] && (
-                    <img onClick={()=>setShowallphotos(true)} src={'http://localhost:3000/'+place.addedphotos?.[0]} className="object-cover aspect-square cursor-pointer"/>
+                    <img onClick={()=>setShowallphotos(true)} src={'https://airbnb-w64o.onrender.com/'+place.addedphotos?.[0]} className="object-cover aspect-square cursor-pointer"/>
                       )
                   }
               </div>
               <div className='grid'>
               {
                       place.addedphotos?.[0] && (
-                          <img onClick={()=>setShowallphotos(true)} src={'http://localhost:3000/'+place.addedphotos?.[1]} className="object-cover aspect-square cursor-pointer"/>
+                          <img onClick={()=>setShowallphotos(true)} src={'https://airbnb-w64o.onrender.com/'+place.addedphotos?.[1]} className="object-cover aspect-square cursor-pointer"/>
                       )
                   }
                   <div className="overflow-hidden">
                   {
                       place.addedphotos?.[0] && (
-                          <img onClick={()=>setShowallphotos(true)} src={'http://localhost:3000/'+place.addedphotos?.[2]} className="object-cover aspect-square relative top-2 cursor-pointer"/>
+                          <img onClick={()=>setShowallphotos(true)} src={'https://airbnb-w64o.onrender.com/'+place.addedphotos?.[2]} className="object-cover aspect-square relative top-2 cursor-pointer"/>
                       )
                   }
                   </div> 

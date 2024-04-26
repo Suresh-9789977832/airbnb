@@ -146,7 +146,7 @@ function Placesformpage() {
                         <div className="mt-2 grid gap-2 grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                             {addedphotos.length > 0 && addedphotos.map((e,i) => {
                                 return <div className="relative border h-32 flex p-2 rounded-lg justify-center" key={i}>
-                                    <img src={'http://localhost:3000/' + e} className='w-full object-cover rounded-lg' />
+                                    <img src={'https://airbnb-w64o.onrender.com/' + e} className='w-full object-cover rounded-lg' />
                                     <button onClick={(ev)=>removephoto(ev,e)} className='absolute bottom-3 right-3 text-white bg-black py-2 px-3 bg-opacity-50 rounded-xl cursor-pointer'>
                                     <FaRegTrashAlt/>
                                     </button>
